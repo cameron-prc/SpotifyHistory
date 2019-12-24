@@ -1,0 +1,13 @@
+version: 2.1
+executors:
+  my-executor:
+    docker:
+      - image: circleci/ruby:2.5.0-node-browsers
+
+jobs:
+  my-job:
+    executor: my-executor
+    steps:
+      - run: bundle install --deploy
+      - store_artifacts:
+          path: vendor/*
