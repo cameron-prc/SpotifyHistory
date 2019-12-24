@@ -53,8 +53,10 @@ PLATFORMS
 
 DEPENDENCIES
   firebase
+  json
   rest-client
   rexml
+  unf_ext
 
 BUNDLED WITH
    1.16.6

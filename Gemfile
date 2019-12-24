@@ -4,3 +4,5 @@ source 'https://rubygems.org'
 gem "rest-client"
 gem "firebase"
 gem "rexml"
+gem "json"
+gem "unf_ext"
