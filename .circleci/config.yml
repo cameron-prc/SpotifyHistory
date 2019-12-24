@@ -18,6 +18,7 @@ jobs:
           command: |
             bundle install --deployment
 
+      - run: gem pristine json --version 2.2.0
       # run tests!
       - run:
           name: archive dependencies
